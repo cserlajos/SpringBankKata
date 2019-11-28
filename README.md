@@ -30,15 +30,8 @@ Statement query
 ### The product owner has given the following acceptance tests for the API
 
 ```
-
-Given any request
-When_an_invalid_customer_auth_token_is_received()
-Then an unauthorized response (status 401) should be returned
-```
-
-```
 Given a SmartSave account registration request 
-When the request contains a valid customerId and customer-auth-token 
+When the request contains a valid customerId
 Then a new account is created and the accountId of the new account returned.
 ```
 
